@@ -1,0 +1,51 @@
+<SETTINGS>
+<OPTIONS>
+	<WordDelimeters>" \t\n,./?LTGT;:\"'{[}]~`%^AMP*()-+=!"</WordDelimeters>
+	<SpecialDelimiters>";.{}\n"</SpecialDelimiters>
+	<IntelliSenseChars>".>:"</IntelliSenseChars>
+</OPTIONS>
+<COLOR_DATA>
+	<KEYWORDS>
+		<Color>0000ff</Color>
+		<CaseSensitive>True</CaseSensitive>
+		<Keyword>class</Keyword>
+		<Keyword>def</Keyword>
+		<Keyword>assert</Keyword>
+		<Keyword>if</Keyword>
+		<Keyword>del</Keyword>
+		<Keyword>pass</Keyword>
+		<Keyword>print</Keyword>
+		<Keyword>return</Keyword>
+		<Keyword>while</Keyword>
+		<Keyword>for</Keyword>
+		<Keyword>try</Keyword>
+		<Keyword>except</Keyword>
+		<Keyword>finally</Keyword>
+	</KEYWORDS>
+	<BLOCKS>
+		<BLOCK>
+			<Start>"""</Start>
+			<End>"""</End>
+			<Color>"darkred"</Color>
+			<WholeText>true</WholeText>
+		</BLOCK>
+		<BLOCK>
+			<Start>"</Start>
+			<End>"</End>
+			<Color>"darkred"</Color>
+			<WholeText>false</WholeText>
+		</BLOCK>
+		<BLOCK>
+			<Start>'</Start>
+			<End>'</End>
+			<Color>"darkred"</Color>
+			<WholeText>false</WholeText>
+		</BLOCK>
+		<BLOCK>
+			<Start>#</Start>
+			<Color>"darkgreen"</Color>
+			<WholeText>false</WholeText>
+		</BLOCK>
+	</BLOCKS>
+</COLOR_DATA>
+</SETTINGS>
